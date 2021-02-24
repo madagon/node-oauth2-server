@@ -1,11 +1,9 @@
 ## Changelog
 
 ### 3.1.0
-* new: Added package-lock.json
-* new: Extend model object with request context
 * new: .npmignore tests
 * fix: validate requested scope on authorize request
-* fix: issue correct expiry dates for tokens
+* fix: always issue correct expiry dates for tokens
 * fix: set numArgs for promisify of generateAuthorizationCode
 * fix: Changed 'hasOwnProperty' call in Response
 * docs: Ensure accessTokenExpiresAt is required
@@ -14,11 +12,17 @@
 * readme: Update Slack badge and link
 * readme: Fix link to RFC6750 standard
 
+### 3.0.2 (24/05/2020)
 
-### 3.0.1
-* Updated dependencies
+* Update all dependencies 🎉
 
-### 3.0.0
+### 3.0.1 (27/08/2018)
+
+* Doc fixes
+
+Tag never released on npm
+
+### 3.0.0 (04/08/2017)
 * Complete re-write, with Promises and callback support
 * Dropped support for node v0.8, v0.10, v0.12
 * Supports Node v4, v6, v7, and v8.  Will continue support for node current and active LTS versions
