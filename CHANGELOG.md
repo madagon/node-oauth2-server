@@ -1,5 +1,8 @@
 ## Changelog
 
+### 3.1.2
+* new: wildcard redirect uri support
+
 ### 3.1.0
 * new: .npmignore tests
 * fix: validate requested scope on authorize request
